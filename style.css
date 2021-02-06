@@ -23,12 +23,19 @@ p{
 }
 
 
-
-#Categories .row{
-    padding-top: 1.5rem!important;
+.card{
+    margin: 1.5rem;
 }
 
 #Footer{
     margin-top: 5em;
     height: 15em;
+}
+
+@media (min-width: 371px) and (max-width: 575px){
+    .card{
+        width: 20rem!important;
+    }
+
+
 }
