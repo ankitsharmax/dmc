@@ -22,20 +22,47 @@
 
 <!-- * Navbar * -->
     
-    <nav class="navbar navbar-expand-md  navbar-dark fixed bg-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed bg-dark">
+        <a class="navbar-brand" href="#">DMC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">DMC</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Categories</a></li>
-
+                <!-- <li class="nav-item">
+                    <a class="nav-link active" href="#">DMC</a></li> -->
+                <!-- test -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" data-toggle="dropdown">  Projects  </a>
+                        <ul class="dropdown-menu fade-up">
+                          <li><a class="dropdown-item" href="#"> Java</a></li>
+                          <li><a class="dropdown-item" href="#"> Python</a></li>
+                          <li><a class="dropdown-item" href="#"> PhP</a></li>
+                          <li><a class="dropdown-item" href="#"> Android</a></li>
+                          <li><a class="dropdown-item" href="#"> Unity</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
+
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">  Python  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">  Java  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">  PhP  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">  About Us  </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#">  Contact  </a>
+                    </li>
+                </ul>
+                <!-- / test -->
+            </ul>
         </div>
     </nav>
 
@@ -46,150 +73,58 @@
 <div class="container">
     
     <!-- Top Section -->
-
-    <div class="container">
+    <div class="container quote">
         <div class="text-center mt-5">
             <div class="jumbotron">
-                <h3>Technology Images</h3>
+                <h3>Project Nation</h3>
                     <p> Browse through amazing technology images. Find pictures of people working with their computer or using cool tech gadgets. We also cover a lot more topics like iPhone or Android images. All photos are free for personal and commercial use.</p>
             </div>
         </div>
     </div>
 
     <!-- \ Top Section -->
+    <section id="card-container">
+        <div class="container">
+            <div class="container featured-projects"><h2>Featured Projects</h2></div>
+            <div class="row">
+                <!-- card 1 -->
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Self Driving Car</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">View<span>&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- card 2 -->
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Self Driving Car</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">View<span>&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
 
-
-    <!-- * Cards * -->
-    <div id="Categories" class="container">
-    <div class="row">
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-            <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-            <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <!-- card 3 -->
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Self Driving Car</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">View<span>&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3  col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-            <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-            <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-            <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-            <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-
-    <div class="col-xl-3  col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-            <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-            <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-        <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-4 col-sm-6">
-        <div class="card" style="width: 13rem;">
-            <img src="https://images.pexels.com/photos/2389476/pexels-photo-2389476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="">
-        <div class="card-body">
-            <h5 class="card-title">Self Driving Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-        </div>
-    </div>
-    </div>
-
-
-    </div>
-    <!-- * \ Cards * -->
-
+    </section>
 </div>
 
 <!-- \ Main -->
