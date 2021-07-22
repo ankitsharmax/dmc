@@ -115,3 +115,13 @@ h5{
 	margin-left: 20px;
 	transition: 0.4s;
 }
+
+#footer {
+	bottom: 0;
+	position: fixed;
+	width: 14rem;
+}
+
+#footer a:hover{
+	margin-left: 0px;
+}
