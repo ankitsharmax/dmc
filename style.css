@@ -73,30 +73,16 @@
 }
 
 h5{
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-size: bold!important;
     color: #008eff;
 
 }
-/*p{
-    font-family: sans-serif;
-    font-size: small;
-}*/
 
 
 #Footer{
     margin-top: 5em;
     height: 15em;
 }
-
-/*@media (min-width: 371px) and (max-width: 574px){
-    .card{
-        width: 18rem!important;
-        margin: 1rem;
-    }
-
-
-}*/
 
 @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
@@ -105,3 +91,89 @@ h5{
     .navbar .dropdown-menu.fade-up{ top:180%;  }
     .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
+
+.carousel-item{
+	/*margin-bottom: 150px;*/
+}
+
+.carousel-inner img {
+	/*display: block;*/
+	/*content: url(images/dmc2.png);*/
+	width: 100%;
+	height: 535px;
+}
+
+.carousel-indicators li {
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	width: 50px;
+	height: 50px;
+	margin-left: 2px;
+  	margin-right: 2px;
+  	opacity: 0.3;
+}
+
+.carousel-indicators li::after {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+.carousel-indicators li[data-slide-to="0"] {
+	/*background-image: url(images/dmc2.png);*/
+	background-color: red;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	/*width: 100px;
+	height: 100px;*/
+}
+
+.carousel-indicators li[data-slide-to="1"] {
+	background-color: green;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	/*width: 100px;
+	height: 100px;*/
+}
+
+.carousel-indicators li[data-slide-to="2"] {
+	background-color: blue;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	/*width: 100px;
+	height: 100px;*/
+}
+
+.vertical-nav {
+	min-width: 14rem;
+	width: 14rem;
+	height: 100%;
+	/*position: fixed;*/
+	left: 0;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
+.vertical-nav a:hover{
+	margin-left: 20px;
+	transition: 0.4s;
+}
+
+.page-footer {
+	background-color: #000;
+}
+
+.page-footer a,h5{
+	color: #fff;
+}
+
+.page-footer a:hover{
+	color: orange;
+}
+	/*#main {
+		box-sizing: border-box;
+	}*/
